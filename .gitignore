@@ -1,0 +1,10 @@
+/.git
+/.vscode
+/coverage
+/dist
+/jest
+/node_modules
+/types
+/.env
+/yarn.lock
+/yarn-error.log

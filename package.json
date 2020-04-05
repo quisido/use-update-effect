@@ -1,0 +1,70 @@
+{
+  "name": "package-name",
+  "version": "1.0.0",
+  "author": "Charles Stover <PACKAGE-NAME@charlesstover.com>",
+  "description": "DESCRIPTION",
+  "homepage": "https://www.npmjs.com/package/PACKAGE-NAME",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "repository": "https://github.com/CharlesStover/PACKAGE-NAME",
+  "types": "./types/index.d.ts",
+  "bugs": {
+    "email": "PACKAGE-NAME@charlesstover.com",
+    "url": "https://github.com/CharlesStover/PACKAGE-NAME/issues"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "types"
+  ],
+  "scripts": {
+    "build": "npm run rollup",
+    "clean": "rm -rf build coverage dist node_modules",
+    "prepublishOnly": "npm run rollup",
+    "rollup": "rollup --config",
+    "start": "rollup --config --watch",
+    "test": "jest",
+    "test-watch": "jest --coverage=false --watch",
+    "tsc": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@testing-library/react": "^9.0.0",
+    "@testing-library/react-hooks": "^2.0.0",
+    "@types/jest": "^23.0.0",
+    "@types/node": "^11.0.0",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "@typescript-eslint/eslint-plugin": "^1.0.0",
+    "@typescript-eslint/parser": "^1.0.0",
+    "eslint": "^5.0.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^1.0.0",
+    "husky": "^2.0.0",
+    "jest": "^24.0.0",
+    "lint-staged": "^8.0.0",
+    "node-sass": "^4.0.0",
+    "prettier": "^1.0.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-test-renderer": "^16.9.0",
+    "rollup": "^1.0.0",
+    "rollup-plugin-postcss": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "ts-jest": "^24.0.0",
+    "tslib": "^1.0.0",
+    "typescript": "^3.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
