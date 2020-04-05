@@ -4,7 +4,6 @@
 /jest
 /node_modules
 /src
-/test-utils
 /.browserlistrc
 /.editorconfig
 /.env

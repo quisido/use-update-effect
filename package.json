@@ -1,16 +1,16 @@
 {
-  "name": "package-name",
+  "name": "use-update-effect",
   "version": "1.0.0",
-  "author": "Charles Stover <PACKAGE-NAME@charlesstover.com>",
+  "author": "Charles Stover <use-update-effect@charlesstover.com>",
   "description": "DESCRIPTION",
-  "homepage": "https://www.npmjs.com/package/PACKAGE-NAME",
+  "homepage": "https://www.npmjs.com/package/use-update-effect",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
-  "repository": "https://github.com/CharlesStover/PACKAGE-NAME",
+  "repository": "https://github.com/CharlesStover/use-update-effect",
   "types": "./types/index.d.ts",
   "bugs": {
-    "email": "PACKAGE-NAME@charlesstover.com",
-    "url": "https://github.com/CharlesStover/PACKAGE-NAME/issues"
+    "email": "use-update-effect@charlesstover.com",
+    "url": "https://github.com/CharlesStover/use-update-effect/issues"
   },
   "directories": {
     "lib": "src"
@@ -51,13 +51,11 @@
     "husky": "^2.0.0",
     "jest": "^24.0.0",
     "lint-staged": "^8.0.0",
-    "node-sass": "^4.0.0",
     "prettier": "^1.0.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-test-renderer": "^16.9.0",
     "rollup": "^1.0.0",
-    "rollup-plugin-postcss": "^2.0.0",
     "rollup-plugin-typescript2": "^0.26.0",
     "ts-jest": "^24.0.0",
     "tslib": "^1.0.0",
