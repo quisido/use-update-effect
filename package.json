@@ -21,6 +21,10 @@
     "README.md",
     "types"
   ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/CharlesStover"
+  },
   "scripts": {
     "build": "npm run rollup",
     "clean": "rm -rf build coverage dist node_modules",
