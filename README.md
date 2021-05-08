@@ -3,7 +3,6 @@
 [![version](https://img.shields.io/npm/v/use-update-effect.svg)](https://www.npmjs.com/package/use-update-effect)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/use-update-effect.svg)](https://www.npmjs.com/package/use-update-effect)
 [![downloads](https://img.shields.io/npm/dt/use-update-effect.svg)](https://www.npmjs.com/package/use-update-effect)
-[![build](https://api.travis-ci.com/CharlesStover/use-update-effect.svg)](https://travis-ci.com/CharlesStover/use-update-effect/)
 
 `useUpdateEffect` is a React hook that mimics the behavior of
 `componentDidUpdate` in function components.
